@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dang ky</title>
+</head>
+<style>
+    body{
+         font-family: Arial, sans-serif;
+         padding: 20px;
+        
+    }
+    .menu td{
+max-width: 100px;
+    }
+    label{
+       
+        display: block;
+        margin-top: 10px;
+    }
+    menu{
+        font-size: 60px;
+    }
+    input, select,textarea{
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    input[type="submit"],input[type="reset"]{
+        width: auto;
+        margin: 10px 0;
+    }
+</style>
+<body>
+        
+<table border="1" width="100%" align="center" class="menu">
+    <tr>
+        <td><a href="index.html">Trang chu😊</a></td>
+        <td><a href="product.html"> San Pham</a></td>
+        <td><a href="register.html"> Dang Ky</a></td>
+        <td><a href="login.html"> dang nhap</a></td>
+    </tr>
+</table>
+ 
+    <h1>Dang ky tai khoan moi</h1>
+    <form action="https://tranvanhung.fitstu.net/download/front-end/test.php" method="post"> </form>
+    <label for="username">Ten dang nhap</label>
+    <input type="text" name="username" id="username"required>
+    <label for="password"> Mat khau</label>
+    <input type="password" name="password" id="password" required>
+    <label for="gender"> gioi tinh</label>
+    <select name="gender" id="gender" class="menu">
+   
+        <option value="Nam">Nam</option     >
+        <option value="Nu">nu</option     >
+    </select>
+    <label for="dob">Ngày sinh:</label>  
+    <input type="date" name="dob" id="dob" required>  
+
+    <label for="email">Email:</label>  
+    <input type="email" name="email" id="email" required>  
+
+    <label for="avatar">Ảnh đại diện:</label>  
+    <input type="file" name="avatar" id="avatar" accept="image/*">  
+    <input type="submit" value="Đăng Ký">  
+    <input type="reset" value="Xóa">  
+    
+</body>
+</html>
